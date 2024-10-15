@@ -67,7 +67,15 @@ export function PasswordGeneratorComponent() {
 
   useEffect(() => {
     generatePassword();
-  }, [mode, wordCount, charLength, useLowercase, useUppercase, useDigits, useSpecial, generatePassword]);
+  }, [
+    mode,
+    wordCount,
+    charLength,
+    useLowercase,
+    useUppercase,
+    useDigits,
+    useSpecial,
+  ]);
 
   return (
       <div className="min-h-screen bg-gray-100 p-8 flex flex-col items-center place-content-center">
