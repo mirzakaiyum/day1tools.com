@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import "./globals.css";
 export const metadata: Metadata = {
   title: 'Day 1 Tools',
   description: 'Quick Access everyday tools',
